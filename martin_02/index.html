@@ -1,0 +1,55 @@
+<!doctype html>
+
+<html lang="en-US">
+
+<head>
+
+	<title>WRA Assignment 02: Avery's Café</title>
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="css/stylesheet.css">
+
+</head>
+
+
+<body>
+
+	<h1>Avery's Café</h1>
+	<p>Your daily pick-me-up!</p>
+
+
+	<div id="cafe">
+        <h2 id="drink">Mango Iced Tea</h2>
+
+        <label for="drinkChoice">Choose your drink:</label>
+        <select id="drinkChoice">
+            <option value="Mango Iced Tea">Mango Iced Tea</option>
+            <option value="Vanilla Latte">Vanilla Latte</option>
+            <option value="Matcha Latte">Matcha Latte</option>
+        </select>
+
+        <label for="colorChoice">Choose a color:</label>
+        <select id="colorChoice">
+            <option value="#c9a27e">Latte Brown</option>
+			<option value="#f4a261">Mango Orange</option>
+			<option value="#a8c686">Matcha Green</option>
+        </select>
+
+		<label class="topping">
+    		<input type="checkbox" id="whippedCream">
+    		Add whipped cream?
+		</label>
+		<p id="toppingMessage"></p>
+
+        <p id="message"></p>
+		<button class="clickButton">Save My Order!</button>
+
+    </div>
+
+	<script src="js/script.js"></script>
+
+</body>
+
+</html>
